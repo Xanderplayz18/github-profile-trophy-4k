@@ -66,16 +66,16 @@ export const CONSTANTS = {
 };
 
 export enum RANK {
-  SECRET = "SECRET",
-  SSS = "SSS",
-  SS = "SS",
+  SECRET = "SEECRET",
+  SSS = "S++",
+  SS = "S+",
   S = "S",
-  AAA = "AAA",
-  AA = "AA",
+  AAA = "A++",
+  AA = "A+",
   A = "A",
   B = "B",
   C = "C",
-  UNKNOWN = "?",
+  UNKNOWN = "??",
 }
 
 export const RANK_ORDER = Object.values(RANK);
